@@ -194,7 +194,8 @@ Suggested layout:
 
 ```text
 .
-├── work.ipynb                # Python analysis script
+├── cycling-anova-analysis.py                # Python analysis script
+├── cycling-anova-analysis.ipynb
 ├── cycling.txt            # dataset
 ├── box_rider_points.png   # boxplot: points by rider_class
 ├── box_stage_points.png   # boxplot: points by stage_class
@@ -213,7 +214,7 @@ Suggested layout:
 
    ```bash
    git clone https://github.com/tallal02/rider-stage-performance.git
-   cd REPO_NAME
+   cd rider-stage-performance
    ```
 
 2. **(Optional) Create and activate a virtual environment.**
@@ -227,7 +228,7 @@ Suggested layout:
 4. **Run the script:**
 
    ```bash
-   python work.ipynb
+   python cycling-anova-analysis.py
    ```
 
 This will:
